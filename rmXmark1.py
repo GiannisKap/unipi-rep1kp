@@ -13,6 +13,7 @@ for i in range (cnt):
             d.append(sentence[strt:i])
             strt=i+1
     except IndexError:
+        pass
 d.append(sentence[strt:cnt])
 for i in d:
     cnt2+=1
