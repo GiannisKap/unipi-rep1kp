@@ -1,3 +1,5 @@
+#eixa anevasei lathos arxeio apo ta linux.. anevasa ayto twn windows parakalw agnohste to commit an den exete diorthwsei 
+#eyxaristw
 e=[]
 d=[]
 cnt=0
