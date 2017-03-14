@@ -8,9 +8,11 @@ sentence=list(sentence)
 for i in sentence:
     cnt+=1
 for i in range (cnt):
-    if sentence[i]==" " and (sentence[i+1]==sentence[i+1].upper()):
-        d.append(sentence[strt:i])
-        strt=i+1
+    try:
+        if sentence[i]==" " and (sentence[i+1]==sentence[i+1].upper()):
+            d.append(sentence[strt:i])
+            strt=i+1
+    except IndexError:
 d.append(sentence[strt:cnt])
 for i in d:
     cnt2+=1
